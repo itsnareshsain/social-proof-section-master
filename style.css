@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+    --Spartan: "Spartan", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.Container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5.5% 5%;
+}
+
+.box h1{
+    font-family: var(--Spartan);
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+    font-size: 3rem;
+
+}
+
+.box p{
+    font-family: var(--Spartan);
+    color: var(--Dark-Grayish-Magenta);
+    padding-top: 2%;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.8rem;
+}
+
+.rate1 ul{
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 0.5rem;
+    padding: 1rem 6rem 1rem 2rem;
+}
+
+.rate1 ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.rate1 ul li p{
+    font-family: var(--Spartan);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--Very-Dark-Magenta);
+    margin-left: 1.5rem;
+}
+
+.rate2{
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.rate2 ul{
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 0.5rem;
+    padding: 1rem 6rem 1rem 2rem;
+}
+
+.rate2 ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.rate2 ul li p{
+    font-family: var(--Spartan);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--Very-Dark-Magenta);
+    margin-left: 1.5rem;
+}
+
+.rate3{
+    margin-left: 4rem;
+    width: 100%;
+}
+
+.rate3 ul{
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 0.5rem;
+    padding: 1rem 6rem 1rem 2rem;
+}
+
+.rate3 ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.rate3 ul li p{
+    font-family: var(--Spartan);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--Very-Dark-Magenta);
+    margin-left: 1.5rem;
+}
+
+
+.container2{
+    display: flex;
+    font-family: var(--Spartan);
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+
+.buyer1{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 0.8rem;
+    font-family: var(--Spartan);
+    padding: 2rem;
+    color: var(--White);
+    line-height: 1.4rem;
+    font-weight: 500;
+    margin: 0rem 1rem 6rem 0.5rem;
+}
+
+.content1{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: var(--White);
+}
+
+.text1 span{
+    color: var(--Soft-Pink);
+}
+
+.content1 img{
+    border-radius: 5rem;
+}
+
+.buyer2{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 0.8rem;
+    font-family: var(--Spartan);
+    padding: 2rem;
+    color: var(--White);
+    line-height: 1.4rem;
+    font-weight: 500;
+    margin: 2rem 1rem 4rem 0.5rem;
+}
+
+.content2{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: var(--White);
+}
+
+.text2 span{
+    color: var(--Soft-Pink);
+}
+
+.content2 img{
+    border-radius: 5rem;
+}
+
+
+.buyer3{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 0.8rem;
+    font-family: var(--Spartan);
+    padding: 2rem;
+    color: var(--White);
+    line-height: 1.4rem;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin: 4rem 0.5rem 2rem 0.5rem;
+}
+
+.content3{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: var(--White);
+}
+
+.text3 span{
+    color: var(--Soft-Pink);
+}
+
+.content3 img{
+    border-radius: 5rem;
+}
+
+@media screen and (max-width: 376px){
+    .Container1{
+        flex-direction: column;
+        background-size: cover;
+    }
+    .box h1, .box p{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .review{
+        display: flex;
+        text-align: center;
+    }
+    .rate1, .rate2, .rate3{
+        margin: auto;
+    }
+    .rate1, .rate2, .rate3{
+        padding: 0.5rem 0 1.5rem 0;
+    }
+    .rate1 ul, .rate2 ul, .rate3 ul{
+        padding: 0.8rem 0 1rem 0;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .buyer1, .buyer2, .buyer3{
+        margin: 0.8rem;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+
+    }
+}
